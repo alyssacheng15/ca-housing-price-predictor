@@ -4,12 +4,12 @@ Machine learning regression model to precisely predict flight prices using datas
 ## Data
 The dataset used includes the following features:
 * airline
-* flight (removed during preprocessing).
-* source city:
-* departure time:
+* flight (removed during preprocessing)
+* source city
+* departure time
 * stops (zero, one, or two or more)
-* arrival time:
-* destination city:
+* arrival time
+* destination city
 * class (economy or business)
 * duration
 * days left before flight
