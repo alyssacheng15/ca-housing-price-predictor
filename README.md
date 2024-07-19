@@ -2,7 +2,7 @@
 Machine learning regression model to precisely predict flight prices using datasets from kaggle and feature engineering. Employs Random Forest regression and fine-tuned with hyperparameter optimization and randomized search, using Python, scikit-learn, pandas, and matplotlib. Forecasts prices based on various features such as airline, source and destination cities, departure and arrival times, class of travel, and flight duration.
 
 ## Data
-The dataset used includes the following features:
+The data is pulled from [kaggle]([url](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)) and includes the following categories: 
 * airline
 * flight (removed during preprocessing)
 * source city
