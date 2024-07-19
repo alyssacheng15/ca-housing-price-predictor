@@ -61,3 +61,5 @@ The dataset used includes the following features:
 
 ## Results
 The tuned model shows a slight improvement in R² and error metrics compared to the default model, indicating enhanced prediction accuracy. Overall, the tuned model is pretty accurate in predicting the flight price, as the margin errors are miniscule. Looking at the feature importances, the most important feature is by far class, followed by duration and days left.
+
+<img width="680" alt="Screenshot 2024-07-19 at 12 45 08 AM" src="https://github.com/user-attachments/assets/b15b8286-498a-413a-8222-4a91f2f45c7c">
