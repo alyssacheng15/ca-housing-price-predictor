@@ -3,20 +3,14 @@ Machine learning regression model to precisely predict flight prices using datas
 
 ## Features
 ### Data Preprocessing:
-#### One-Hot Encoding:
-Converts categorical variables such as airline, source city, destination city, departure time, and arrival time into numerical format.
-#### Binary Encoding:
-Transforms the 'class' feature into binary format, distinguishing between Economy (0) and Business (1).
-#### Factorization:
-Converts the 'stops' feature into numerical values for ease of model processing.
+* One-Hot Encoding: Converts categorical variables such as airline, source city, destination city, departure time, and arrival time into numerical format.
+* Binary Encoding: Transforms the 'class' feature into binary format, distinguishing between Economy (0) and Business (1).
+* Factorization: Converts the 'stops' feature into numerical values for ease of model processing.
 
 ### Model Training and Evaluation:
-#### Training:
-Utilizes a Random Forest Regressor to train the model on historical flight data.
-#### Evaluation Metrics:
-Includes R² score, Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) to assess model performance.
-#### Feature Importance:
-Identifies the most influential features affecting flight prices, with 'class' being the most significant.
+* Training: Utilizes a Random Forest Regressor to train the model on historical flight data.
+* Evaluation Metrics: Includes R² score, Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) to assess model performance.
+* Feature Importance: Identifies the most influential features affecting flight prices, with 'class' being the most significant.
 
 ### Hyperparameter Tuning:
 #### Default Model:
