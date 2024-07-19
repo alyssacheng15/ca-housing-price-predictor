@@ -13,10 +13,8 @@ Machine learning regression model to precisely predict flight prices using datas
 * Feature Importance: Identifies the most influential features affecting flight prices, with 'class' being the most significant.
 
 ### Hyperparameter Tuning:
-#### Default Model:
-Initial Random Forest Regressor model without parameter tuning.
-#### Tuned Model:
-Improved model using RandomizedSearchCV to optimize hyperparameters for better accuracy and performance.
+* Default Model: Initial Random Forest Regressor model without parameter tuning.
+* Tuned Model: Improved model using RandomizedSearchCV to optimize hyperparameters for better accuracy and performance.
 
 ## Data
 The dataset used includes the following features:
