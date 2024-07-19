@@ -39,20 +39,20 @@ The dataset used includes the following features:
 * price
 
 ## Steps
-## Data Preprocessing:
+### Data Preprocessing:
 * Load the dataset and perform initial explorations.
 * Drop irrelevant columns and encode categorical variables.
 * Apply factorization and binarization where necessary.
 
-## Model Training:
+### Model Training:
 * Split the dataset into training and testing sets.
 * Train the Random Forest Regressor using the training set.
 
-## Model Evaluation:
+### Model Evaluation:
 * Evaluate the model using metrics such as R², MAE, MSE, and RMSE.
 * Generate and analyze feature importance to understand which factors most influence flight prices.
 
-## Hyperparameter Tuning (Optional):
+### Hyperparameter Tuning (Optional):
 * Use RandomizedSearchCV to find the best hyperparameters for the model.
 * Compare the performance of the tuned model with the default model.
 
